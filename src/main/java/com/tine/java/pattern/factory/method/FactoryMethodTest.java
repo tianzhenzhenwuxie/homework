@@ -12,7 +12,7 @@ public class FactoryMethodTest {
         Car benz =  benzFactory.createCar();
         System.out.println(benz.getName());
 
-        Factory BMWFactory = new BMWFactory();
+        Factory BMWFactory = new BmwFactory();
         Car bmw =  BMWFactory.createCar();
         System.out.println(bmw.getName());
     }

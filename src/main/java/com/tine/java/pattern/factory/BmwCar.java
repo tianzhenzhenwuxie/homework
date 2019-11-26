@@ -1,7 +1,7 @@
 package com.tine.java.pattern.factory;
 
-public class Audi implements Car {
+public class BmwCar implements Car {
     public String getName() {
-        return "Audi";
+        return "BmwCar";
     }
 }

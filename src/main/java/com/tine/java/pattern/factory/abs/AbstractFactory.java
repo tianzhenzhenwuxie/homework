@@ -1,5 +1,6 @@
 package com.tine.java.pattern.factory.abs;
 
+import com.tine.java.pattern.factory.Bus;
 import com.tine.java.pattern.factory.Car;
 
 /**
@@ -9,4 +10,6 @@ import com.tine.java.pattern.factory.Car;
  **/
 public abstract class AbstractFactory {
     abstract Car createCar();
+
+    abstract Bus createBus();
 }

@@ -1,6 +1,6 @@
 package com.tine.java.pattern.factory.method;
 
-import com.tine.java.pattern.factory.Benz;
+import com.tine.java.pattern.factory.BenzCar;
 import com.tine.java.pattern.factory.Car;
 
 /**
@@ -11,6 +11,6 @@ import com.tine.java.pattern.factory.Car;
 public class BenzFactory implements Factory {
 
     public Car createCar() {
-        return new Benz();
+        return new BenzCar();
     }
 }
